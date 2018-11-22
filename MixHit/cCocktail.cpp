@@ -29,7 +29,7 @@ cIngredient cCocktail::getIngredient(int pIndex)
 	return mIngredients[pIndex];
 }
 
-cCocktail * cCocktail::fromJson(String json)
+cCocktail * cCocktail::fromJson(std::string json)
 {
 	cJSON *root = cJSON_Parse(json.c_str());
 	if (!cJSON_HasObjectItem(root, "Name") ||

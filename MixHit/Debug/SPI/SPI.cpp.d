@@ -1,23 +1,23 @@
-C:\Users\Master\ Lars\AppData\Local\Temp\VMBuilds\MixHit\espressif_esp32\Debug\SPI\SPI.cpp.o: \
- C:\Users\Master\ Lars\Documents\Arduino\hardware\espressif\esp32\libraries\SPI\src\SPI.cpp \
- C:\Users\Master\ Lars\Documents\Arduino\hardware\espressif\esp32\libraries\SPI\src\SPI.h \
- C:\Users\Master\ Lars\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/stdlib.h \
- C:\Users\Master\ Lars\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/machine/ieeefp.h \
- C:\Users\Master\ Lars\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/_ansi.h \
- C:\Users\Master\ Lars\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/newlib.h \
- C:\Users\Master\ Lars\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/sys/config.h \
- C:\Users\Master\ Lars\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/sys/features.h \
- C:\Users\Master\ Lars\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/esp32/xtensa/config/core-isa.h \
- C:\Users\Master\ Lars\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/sys/reent.h \
- C:\Users\Master\ Lars\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/_ansi.h \
- C:\Users\Master\ Lars\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/sys/_types.h \
- C:\Users\Master\ Lars\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/machine/_types.h \
- C:\Users\Master\ Lars\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/machine/_default_types.h \
- C:\Users\Master\ Lars\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/sys/lock.h \
- C:\Users\Master\ Lars\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/sys/cdefs.h \
- C:\Users\Master\ Lars\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/machine/stdlib.h \
- C:\Users\Master\ Lars\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/alloca.h \
- C:\Users\Master\ Lars\Documents\Arduino\hardware\espressif\esp32\variants\esp32/pins_arduino.h \
- C:\Users\Master\ Lars\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/stdint.h \
- C:\Users\Master\ Lars\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/sys/_intsup.h \
- C:\Users\Master\ Lars\Documents\Arduino\hardware\espressif\esp32\cores\esp32/esp32-hal-spi.h
+C:\Users\Johannes\AppData\Local\Temp\VMBuilds\MixHit\espressif_esp32\Debug\SPI\SPI.cpp.o: \
+ C:\Users\Johannes\Documents\Arduino\hardware\espressif\esp32\libraries\SPI\src\SPI.cpp \
+ C:\Users\Johannes\Documents\Arduino\hardware\espressif\esp32\libraries\SPI\src\SPI.h \
+ C:\Users\Johannes\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/stdlib.h \
+ C:\Users\Johannes\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/machine/ieeefp.h \
+ C:\Users\Johannes\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/_ansi.h \
+ C:\Users\Johannes\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/newlib.h \
+ C:\Users\Johannes\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/sys/config.h \
+ C:\Users\Johannes\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/sys/features.h \
+ C:\Users\Johannes\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/esp32/xtensa/config/core-isa.h \
+ C:\Users\Johannes\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/sys/reent.h \
+ C:\Users\Johannes\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/_ansi.h \
+ C:\Users\Johannes\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/sys/_types.h \
+ C:\Users\Johannes\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/machine/_types.h \
+ C:\Users\Johannes\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/machine/_default_types.h \
+ C:\Users\Johannes\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/sys/lock.h \
+ C:\Users\Johannes\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/sys/cdefs.h \
+ C:\Users\Johannes\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/machine/stdlib.h \
+ C:\Users\Johannes\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/alloca.h \
+ C:\Users\Johannes\Documents\Arduino\hardware\espressif\esp32\variants\esp32/pins_arduino.h \
+ C:\Users\Johannes\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/stdint.h \
+ C:\Users\Johannes\Documents\Arduino\hardware\espressif\esp32/tools/sdk/include/newlib/sys/_intsup.h \
+ C:\Users\Johannes\Documents\Arduino\hardware\espressif\esp32\cores\esp32/esp32-hal-spi.h

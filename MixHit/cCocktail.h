@@ -14,7 +14,7 @@ public:
 	int getNumberOfIngredients();					// Gibt die Anzahl an verwendeten Zutaten aus.
 	cIngredient getIngredient(int pIndex);			// Gibt die Zutat mit dem entsprechenden Index aus.
 
-	static cCocktail * fromJson(String json);
+	static cCocktail * fromJson(std::string json);
 	String toJson();
 
 	int getFuel();

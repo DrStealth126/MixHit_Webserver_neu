@@ -527,12 +527,14 @@ void LoadConfigFile(String pFileName)
 			split(&Lines[i], ';', &Line); // Zeileninhalt trennen
 			if (Line.size() == 1) // Pruefen ob nur der Name des Vorratsbehaelters enthalten ist
 			{
-				gCocktailMixer.mReservoir.addReservoir(Line[0]);
+//				gCocktailMixer.mReservoir.addReservoir(Line[0]);
 			}
 			else if (Line.size() == 3) // Pruefen ob der Name des Vorratsbehaelters sowie die Parameter m und b enthalten sind
 			{
-				gCocktailMixer.mReservoir.addReservoir(Line[0], atof(Line[1].c_str()), atof(Line[2].c_str()));
+//				gCocktailMixer.mReservoir.addReservoir(Line[0], atof(Line[1].c_str()), atof(Line[2].c_str()));
 			}
+			// TODO: Reservoir noch hinzufuegen
+#warning "Reservoirs deaktiviert."
 		}
 		if (SelectIndex == 1 && Counter >= 0)
 		{ // Mengenangaben
@@ -551,57 +553,6 @@ void LoadConfigFile(String pFileName)
 			if (Line.size() == 1) // Pruefen ob die Anzahl an Informationen stimmt (Leergewicht und Fuellmaenge).
 			{
 				gCocktailMixer.mGlasses.addGlas(new cGlass(Line[0].toInt(), GlassTollerance));
-			}
-		}
-		if (SelectIndex == 3 && Counter >= 0)
-		{ // Cocktails alkoholisch
-			// Zeilenaufbau: Cocktailname; Zutat_1; Menge_1; Zutat_2; Menge_2; ...
-			split(&Lines[i], ';', &Line); // Zeileninhalt trennen
-			
-			vector<String> lNames;
-			vector<int> lAmount;
-			for (int i = 0; i < (Line.size() - 1) / 2; i++)
-			{
-				lNames.push_back(Line[1 + i * 2]);
-				lAmount.push_back(Line[2 + i * 2].toInt());
-			}
-			bool AddCocktail = true;
-			for (int i = 0; i < lNames.size(); i++)
-			{
-				if (gCocktailMixer.mReservoir.getReservoirIndex(lNames[i]) < 0)
-				{
-					AddCocktail = false;
-					break;
-				}
-			}
-			if (AddCocktail)
-			{
-				gAlcoholicList.addCocktail(new cCocktail(Line[0], lNames, lAmount));
-			}
-		}
-		if (SelectIndex == 4 && Counter >= 0)
-		{ // Cocktails alkoholfrei
-			// Zeilenaufbau: Cocktailname; Zutat_1; Menge_1; Zutat_2; Menge_2; ...
-			split(&Lines[i], ';', &Line);
-			vector<String> lNames;
-			vector<int> lAmount;
-			for (int i = 0; i < (Line.size() - 1) / 2; i++)
-			{
-				lNames.push_back(Line[1 + i * 2]);
-				lAmount.push_back(Line[2 + i * 2].toInt());
-			}
-			bool AddCocktail = true;
-			for (int i = 0; i < lNames.size(); i++)
-			{
-				if (gCocktailMixer.mReservoir.getReservoirIndex(lNames[i]) < 0)
-				{
-					AddCocktail = false;
-					break;
-				}
-			}
-			if (AddCocktail)
-			{
-				gNonAlcoholicList.addCocktail(new cCocktail(Line[0], lNames, lAmount));
 			}
 		}
 	}
