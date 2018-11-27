@@ -21,9 +21,10 @@ void setup_WebServer()
 	std::string configPath = ConfigProvider::getPath(eConfig_WiFi);
 	if (configPath == "") {
 		Serial.println("WlanConfig nicht gefunden.");
-		return;
+		//return;
 	}
-	WiFiConfig * wifiConfig = WiFiConfig::fromFile(configPath);
+	WiFiConfig *wifiConfig = new WiFiConfig();
+	//WiFiConfig * wifiConfig = WiFiConfig::fromFile(configPath);
 	if (wifiConfig == NULL) {
 		Serial.println("Fehler bei WLAN-Setup");
 		return;
@@ -78,7 +79,7 @@ void setup()
 		Serial.println("Lade Werkseinstellungen");
 		gOLED.PrintFirstLine("Werkseinstellungen...");
 		gOLED.DisplayLines();
-		#ifndef REGION_DeleteAllFiles
+		#ifdef REGION_DeleteAllFiles
 		String lFiles = "";
 		listDir(SPIFFS, "/", 0, &lFiles);
 		vector<String> lFileNames;

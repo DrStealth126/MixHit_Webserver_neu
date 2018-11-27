@@ -19,10 +19,10 @@
 WiFiConfig::WiFiConfig()
 {
 	ESP_LOGI("WiFi", "Initialising new WiFiConfig with default parameters.");
-	mConnectSSID = "MixHit-WiFi";
+	mConnectSSID = "";
 	mConnectPW = "";
 
-	mApSSID = "MixHit-WiFi";
+	mApSSID = "MixHit-WiFi-neu";
 	mApPW = "";
 }
 
